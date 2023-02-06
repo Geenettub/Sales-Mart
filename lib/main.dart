@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:project/reset_password.dart';
+import 'package:project/reset_password3.dart';
+import 'package:project/sign_in.dart';
 import 'package:project/splashscreen.dart';
 import 'package:project/onboarding.dart';
 import 'package:project/splashscreen.dart';
@@ -14,9 +17,10 @@ class Aksu_Mart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SplashScreen(),
+      home: Reset(),
       theme: ThemeData(
         primaryColor: Colors.orange,
+        textTheme: TextTheme(bodyText2: TextStyle()),
       ),
     );
   }
